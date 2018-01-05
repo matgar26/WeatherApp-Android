@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity implements PlaceSelectionLis
 
                     name.setText(city + ", " + state);
                     windSpeed.setText("Wind: " + wind.getSpeed() + " mph");
-                    conditions.setText("Current Conditions " + condition.getText());
+                    conditions.setText("Current Conditions: " + condition.getText());
                     humidity.setText("Humidity: " + atmos.getHumidity());
                     temp.setText("Current Temperature: " + condition.getTemp() + " Degrees F.");
 
