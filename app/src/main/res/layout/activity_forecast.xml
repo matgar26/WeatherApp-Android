@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.example.matthewgardner.weatherapp.ForecastActivity"
+                android:id="@+id/homeFragment">
+
+    <RelativeLayout
+        android:id="@+id/topView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:text="Forecast for Salt Lake City"/>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/seperator"
+        android:layout_below="@id/topView"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#7F7F7F"/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/seperator"/>
+
+</RelativeLayout>

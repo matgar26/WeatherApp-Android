@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="start"
+    android:background="@android:color/white"
+    android:id="@+id/directoryRow">
+
+    <RelativeLayout
+        android:layout_margin="10sp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="start">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monday, January 5th"/>
+
+        <TextView
+            android:id="@+id/condition"
+            android:layout_below="@id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Partly Cloudy"/>
+
+        <TextView
+            android:id="@+id/temp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="textEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="32 | 65"/>
+
+
+
+
+
+    </RelativeLayout>
+
+</TableRow>
+
+
